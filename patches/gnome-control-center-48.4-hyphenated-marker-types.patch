@@ -1,0 +1,15 @@
+Index: gnome-control-center-48.4/panels/printers/pp-printer-entry.c
+===================================================================
+--- gnome-control-center-48.4.orig/panels/printers/pp-printer-entry.c
++++ gnome-control-center-48.4/panels/printers/pp-printer-entry.c
+@@ -272,7 +272,9 @@ supply_levels_draw_cb (GtkDrawingArea *d
+               if (g_strcmp0 (marker_typesv[i], "ink") == 0 ||
+                   g_strcmp0 (marker_typesv[i], "toner") == 0 ||
+                   g_strcmp0 (marker_typesv[i], "inkCartridge") == 0 ||
+-                  g_strcmp0 (marker_typesv[i], "tonerCartridge") == 0)
++                  g_strcmp0 (marker_typesv[i], "tonerCartridge") == 0 ||
++                  g_strcmp0 (marker_typesv[i], "ink-cartridge") == 0 ||
++                  g_strcmp0 (marker_typesv[i], "toner-cartridge") == 0)
+                 {
+                   marker = g_new0 (MarkerItem, 1);
+                   marker->type = g_strdup (marker_typesv[i]);

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="900" height="300" fill="#f6f5f4"/>
+  <rect x="20" y="20" width="860" height="260" rx="24" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <text x="60" y="78" font-family="sans-serif" font-size="34" font-weight="700" fill="#303030">HP_M479fdn</text>
+  <rect x="610" y="40" width="210" height="56" rx="14" fill="#f0f0f0"/>
+  <text x="638" y="76" font-family="sans-serif" font-size="23" font-weight="600" fill="#989898">No Active Jobs</text>
+  <text x="60" y="132" font-family="sans-serif" font-size="22" fill="#999999">Model</text>
+  <text x="150" y="132" font-family="sans-serif" font-size="22" fill="#333333">Printer - IPP Everywhere</text>
+  <text x="60" y="170" font-family="sans-serif" font-size="22" fill="#999999">Location</text>
+  <text x="150" y="170" font-family="sans-serif" font-size="22" fill="#333333">I källaren</text>
+  <text x="60" y="208" font-family="sans-serif" font-size="22" fill="#999999">Status</text>
+  <text x="150" y="208" font-family="sans-serif" font-size="22" fill="#333333">Ready</text>
+  <text x="60" y="247" font-family="sans-serif" font-size="22" fill="#999999">Ink Level</text>
+  <clipPath id="bar"><rect x="150" y="226" width="650" height="26" rx="13"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="150" y="226" width="65" height="26" fill="#46dfea"/>
+    <rect x="215" y="226" width="130" height="26" fill="#e743d5"/>
+    <rect x="345" y="226" width="195" height="26" fill="#111111"/>
+    <rect x="540" y="226" width="18" height="26" fill="#f3e51c"/>
+    <rect x="558" y="226" width="242" height="26" fill="#ffffff"/>
+  </g>
+  <rect x="150" y="226" width="650" height="26" rx="13" fill="none" stroke="#d9d9d9" stroke-width="2"/>
+  <text x="450" y="292" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#666666">After patch: GNOME renders the toner levels</text>
+</svg>

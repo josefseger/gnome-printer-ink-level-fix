@@ -4,6 +4,22 @@ A tested fix for **GNOME Control Center 48.4** where some IPP printers report va
 
 Tested with Debian 13 (Trixie), `gnome-control-center` `1:48.4-1~deb13u1`, and an HP Color LaserJet Pro MFP M479fdn using IPP Everywhere.
 
+## Before and after
+
+### Before patch
+
+GNOME Settings showed the printer as ready, but the `Ink Level` bar was empty even though CUPS had valid toner data.
+
+![Before patch - empty Ink Level bar](images/before.svg)
+
+### After patch
+
+After adding support for the hyphenated marker types and restarting GNOME Control Center, the same IPP Everywhere queue displayed toner levels.
+
+![After patch - toner levels visible](images/after.svg)
+
+> The SVGs above are focused visual reproductions of the GNOME printer card states captured during testing, so the important before/after difference is easy to see in the repository.
+
 ## Symptom
 
 Printing worked normally and CUPS already reported valid supply data:
